@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    margin: 0%;
+    background: wheat;
+    font-family: 'Press Start 2P', cursive;
+}
+.calc{
+    /* height: 30rem; */
+    width: 20rem;
+    background: #535c64;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+
+    height: 4rem;
+    padding: .5rem;
+    background: black;
+    border-bottom: 1px solid black;
+    /* background-image: url("./assets/dis.png");
+    background-blend-mode: color; */
+
+}
+
+.disborder{
+    background: #535C64;
+    padding-top: .2rem;
+    border: 1px solid black;
+}
+
+.border{
+    background: #535C64;
+    padding-bottom: .2rem;
+    border: 1px solid black;
+    box-shadow: 0px 4px 0px #3C4043 ;
+
+}
+
+.outer{
+    background: #717c86;
+    padding: .8rem;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.inp{
+    color: #b28b05;
+    padding-bottom: 1rem;
+    font-size: .7rem;
+}
+
+.out{
+    color: #01cf08;
+    font-size: 1.5rem;
+}
+
+.keys{
+    /* height: 20rem; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.btn{
+    aspect-ratio: 1/1;
+}
+
+.border:nth-child(1){
+    margin-bottom: 1rem;
+}
